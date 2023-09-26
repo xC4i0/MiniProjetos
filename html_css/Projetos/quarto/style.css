@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #8A51FC;;
+}
+
+.logo {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+main {
+    background: #F4F4F4;
+    width: 375px;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select {
+    color: #555;
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #BBB;
+    background: #FFF;
+    margin-bottom: 24px;
+    padding-left: 14px;
+    appearance: none;
+    cursor: pointer;
+}
+
+input {
+    color: #555;
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #BBB;
+    background: #FFF;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 11px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    background: #772FD3;
+    border: none;
+    margin-top: 23px;
+    margin-bottom: 36px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    /* width: 100%;
+    height: 276px; */
+    margin-top: 36px;
+    padding: 23px;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    width: 35px;
+    height: 49.939px;
+    margin: 14px 0px;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+}
